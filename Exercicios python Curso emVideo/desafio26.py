@@ -1,0 +1,5 @@
+frase = input ("digite uma frase:")
+frase2 = frase.lower().count("a")
+frase3 = frase.find("a")
+frase4 = frase.rfind("a")
+print("a frase {} aparece a letra A {} vezes, na posidção {} da primeira vez, e {} na ultima vez ".format(frase, frase2, frase3, frase4))
