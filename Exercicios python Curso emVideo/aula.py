@@ -6,4 +6,4 @@ elif nome == "Fran":
 elif nome in "Ana maria braga":
     print("Voce e do progama de tv?")
 else:
-    print("Seu nome e {}".format(nome))     
+    print("Seu nome e {}".format(nome)) 
