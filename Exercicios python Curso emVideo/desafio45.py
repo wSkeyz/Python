@@ -65,3 +65,5 @@ elif Escolha == 3:
         print("""====================================================
                  Computador jogou Tesoura e voce jogou {}.Empate!
                  ====================================================""".format(Jogada))
+else:
+    print("Jogada invalida. Tente novamente.")
