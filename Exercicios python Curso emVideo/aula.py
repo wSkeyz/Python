@@ -1,9 +1,3 @@
-nome = str(input("Qual e seu nome?")).strip().capitalize()
-if nome == "Alex":
-    print("Bom dia nome bonito")
-elif nome == "Fran":
-    print("Nome da minha namorada")
-elif nome in "Ana maria braga":
-    print("Voce e do progama de tv?")
-else:
-    print("Seu nome e {}".format(nome)) 
+n = int(input("Digite um numero:"))
+for n in range(1, n, 1):
+    print(n, end="")
